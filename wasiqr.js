@@ -58,21 +58,21 @@ router.get('/', async (req, res) => {
 				   let b64data = Buffer.from(data).toString('base64');
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
-				   let TREX_MD_TEXT = `
+				   let DULLAH_MD_TEXT = `
 ┏━━━━━━━━━━━━━━
 ┃𝚃𝚛𝚎𝚡 𝚖𝚍
 ┃𝑆𝑢𝑐𝑐𝑒𝑠𝑓𝑢𝑙𝑙𝑦
 ┃𝐶𝑜𝑛𝑛𝑒𝑐𝑡𝑒𝑑
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || 𝐶𝑟𝑒𝑎𝑡𝑜𝑟 = 𝙱𝙴𝚁𝙰_𝚃𝙴𝙲𝙷
+❶ || 𝐶𝑟𝑒𝑎𝑡𝑜𝑟 = DULLAH_MD
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || WhattsApp Channel = https://whatsapp.com/channel/0029VajJoCoLI8YePbpsnE3q
+❷ || WhattsApp Channel = https://whatsapp.com/channel/GufiUEQ7Jj1D2kszcZqOgx
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 Please Follow My Support Channel
-Wanna talk to me?https://wa.me/254743982206?
+Wanna talk to me?https://wa.me/255716945971?
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©*𝙱𝙴𝚁𝙰_𝚃𝙴𝙲𝙷 *
+©*DULLAH_MD *
 _____________________________________
 	
 _Don't Forget To Give Star To My Repo_`
